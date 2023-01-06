@@ -43,5 +43,4 @@ jobs:
           # Should this release be marked as a pre-release?
           prerelease: false # optional, default is true
           # Assets to upload to the release
-          files: # optional
-              InstallScriptDemoPlugin\bin\Release\InstallScriptDemoPlugin.dll
+          files: "InstallScriptDemoPlugin\bin\Release\InstallScriptDemoPlugin.dll"
