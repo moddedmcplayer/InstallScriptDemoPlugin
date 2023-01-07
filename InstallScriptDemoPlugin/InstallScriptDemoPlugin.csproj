@@ -51,8 +51,8 @@
       <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="install.bat" />
-      <Content Include="install.sh" />
+      <EmbeddedResource Include="install.bat" />
+      <EmbeddedResource Include="install.sh" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -62,5 +62,4 @@
     <Target Name="AfterBuild">
     </Target>
     -->
-
 </Project>
