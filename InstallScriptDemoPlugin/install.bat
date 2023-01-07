@@ -1,3 +1,3 @@
 echo "test"
-read name
-echo "Hello, $name"
+set /P "name=Enter ID: "
+echo "Hello, %name%"
